@@ -41,6 +41,54 @@
             <span class="nav-link-text ms-1">Pegawai</span>
           </a>
         </li>
+
+        <li class="nav-item">
+            <a data-bs-toggle="collapse" href="#dataMaster" class="nav-link" aria-controls="dataMaster" role="button" aria-expanded="false">
+                <i class="ni ni-archive-2 text-warning"></i>
+                <span class="nav-link-text ms-1">Data Master</span>
+            </a>
+            <div class="collapse" id="dataMaster">
+                <ul class="nav ms-4">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('status-keaktifan.index') }}">
+                            <span class="sidenav-mini-icon"> S </span>
+                            <span class="sidenav-normal"> Status Keaktifan </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('klasifikasi.index') }}">
+                            <span class="sidenav-mini-icon"> K </span>
+                            <span class="sidenav-normal"> Klasifikasi </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('jabatan-struktural.index') }}">
+                            <span class="sidenav-mini-icon"> J </span>
+                            <span class="sidenav-normal"> Jabatan Struktural </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('unit-kerja.index') }}">
+                            <span class="sidenav-mini-icon"> U </span>
+                            <span class="sidenav-normal"> Unit & Lingkup Kerja </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <span class="sidenav-mini-icon"> U </span>
+                            <span class="sidenav-normal"> Jenis Kehadiran </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <span class="sidenav-mini-icon"> U </span>
+                            <span class="sidenav-normal"> Hari & Jam Kerja </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+
         
         <li class="nav-item">
           <a class="nav-link " href="template/pages/billing.html">
